@@ -1,0 +1,39 @@
+/* styles for the hero image */
+.bgimage {
+    width:100%;
+    height:750px;
+    background: url('./images/woods1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+  }
+  .bgimage h5 {
+    color:white;
+    text-shadow:2px 2px #333;
+  }
+  .bgimage p {
+    color: white;
+    text-shadow: 2px 2px #333;
+  }
+
+  /* footer styles */
+  html,
+body {
+    height: 100%;
+}
+#page-content {
+    flex: 1 0 auto;
+}
+#sticky-footer {
+    flex-shrink: none;
+}
+small {
+    color: black;
+}
+
+/* Other Classes for Page Styling */
+body {
+    background: #ffffff;
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255));
+}
